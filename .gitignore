@@ -1,6 +1,7 @@
 log/*
 tmp/**/*
 db/*.sqlite3
+config/database.yml
 public/system
 *.DS_Store
 coverage/*
