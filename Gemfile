@@ -37,7 +37,6 @@ group :cucumber do
   gem 'cucumber', '1.1.0'
   gem 'cucumber-rails', '0.3.2'
   gem 'webrat', "0.5.3"
-  gem 'fakeweb', '1.2.5'
 end
 
 group :test do
@@ -46,7 +45,6 @@ group :test do
   gem "shoulda", "~>2.10.1"
   gem "jtrupiano-timecop", "0.2.1",
     :require     => "timecop"
-  gem "fakeweb", "1.2.5"
   gem "jferris-mocha", "0.9.5.0.1241126838",
     :require     => "mocha"
 end
@@ -54,5 +52,6 @@ end
 group :test, :cucumber do
   gem 'factory_girl', '1.2.3'
   gem 'mock_redis', '0.4.1'
+  gem 'fakeweb', '1.2.5'
 end
 gem "newrelic_rpm"
