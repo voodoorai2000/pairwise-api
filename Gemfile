@@ -29,6 +29,7 @@ gem "sendgrid", "0.1.4"
 gem "json_pure", "1.4.6"
 gem "rubaidh-google_analytics", "1.1.4", :require => "rubaidh/google_analytics"
 gem 'mysql2', '0.2.18'
+gem 'iconv', '~> 1.0.3'
 
 group :production do
   gem 'ey_config'
